@@ -10,10 +10,18 @@ def bubble_sort(data_list):
     return data_list
 
 
-my_list = [64, 34, 25, 12, 22, 11, 90]
+my_list1 = [64, 34, 25, 12, 22, 11, 91]
 
-print(f"Initial list:{my_list}")
+print(f"Initial list1:{my_list1}")
 
-sorted_list = bubble_sort(my_list)
+sorted_list1 = bubble_sort(my_list1)
 
-print(f"Sorted list:{sorted_list}")
+print(f"Sorted list:{sorted_list1}")
+
+my_list2 = [1, 5, 5, 2, 22, 11, 90]
+
+print(f"Initial list:{my_list2}")
+
+sorted_list2 = bubble_sort(my_list2)
+
+print(f"Sorted list:{sorted_list2}")
